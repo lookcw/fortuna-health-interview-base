@@ -1,12 +1,7 @@
-# Developing a Single Page App with FastAPI and React
+## Getting started
 
-### Want to learn how to build this?
+##### Remember AI tool's are encouraged and we're just looking for a working product. Good luck!
 
-Check out the [tutorial](https://testdriven.io/blog/fastapi-react/).
-
-## Want to use this project?
-
-1. Fork/Clone
 
 1. Run the server-side FastAPI app in one terminal window:
 
@@ -16,6 +11,18 @@ Check out the [tutorial](https://testdriven.io/blog/fastapi-react/).
     $ source env/bin/activate
     (env)$ pip install -r requirements.txt
     (env)$ python main.py
+    ```
+
+    Navigate to [http://localhost:8000](http://localhost:8000)
+
+1. **Alternative: Run the Node.js backend server** (instead of FastAPI):
+
+    ```sh
+    $ cd backend-node
+    $ npm install
+    $ npm start
+    # or for development with auto-restart:
+    $ npm run dev
     ```
 
     Navigate to [http://localhost:8000](http://localhost:8000)
